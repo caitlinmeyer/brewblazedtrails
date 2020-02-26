@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>CT Beer Trail Map</name>
+    <description>The CT Brewers Guild has put together this CT Beer Trail of every CT brewery and will continue to update as new breweries open up! Grab our CT Beer Trail Passport from any brewery, get it stamped, grab a pint, and as always drink local!</description>
+    <Style id="icon-1879-1A237E-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1879-1A237E-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1879-1A237E">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1879-1A237E-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1879-1A237E-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1879-1A237E-nodesc-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1879-1A237E-nodesc-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1879-1A237E-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1879-1A237E-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1879-1A237E-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Breweries</name>
+      <Placemark>
+        <name>Overshores Brewing Co</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.8743261,41.2890024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thimble Island Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.771561,41.29671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stony Creek Brewery</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.8134048,41.2748191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Powder Hollow Brewery</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.5195365,41.983921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Aspetuck Brew Lab</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.2356314,41.1544607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>These Guys Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.074373,41.5259926,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cambridge House Brew Pub</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.792988,41.965835,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The Crossings Restaurant & Brew Pub]]></name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.9081515,41.9144685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stubborn Beauty Brewing Company</name>
+        <description><![CDATA[<img src="https://doc-0k-a4-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/g2bg6jgp8uqfe025b1f8jco2i4/1582740900000/EFfELvwYskTzdewnw443CCh_AH2IMeVn/*/2AF2TALpvxWhgC5vljetdOBpGHk83H2QBU-EGKInLUxTxI_jIvADMPOCfRL7GiABvXGKRPLH5qZI5Ln4SlHtzLUXZ-jH_f-_mbVBpDQn7R5mfmmy9sBW91gAGP8bXdFaM_Ln4db_v9KxzUIAwQOZ6nqWDJtI9Yg2XKGsQkGAhLHtVLIrI-0XyM-fAq9AmRlqaQCRm9NRqLjJ2aymVTo8EIiGeaFoiVF1Mk61Bx48RL7Efe8Y1aq3Fhdb3iaKvZYZlKwfWuCxlWs0iDGQkx4YNiIeXs0LX3hLS_Q?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1879-1A237E</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-a4-mymaps.googleusercontent.com/untrusted/hostedimage/f6u64nodcabo26320jjaagdfpc/g2bg6jgp8uqfe025b1f8jco2i4/1582740900000/EFfELvwYskTzdewnw443CCh_AH2IMeVn/*/2AF2TALpvxWhgC5vljetdOBpGHk83H2QBU-EGKInLUxTxI_jIvADMPOCfRL7GiABvXGKRPLH5qZI5Ln4SlHtzLUXZ-jH_f-_mbVBpDQn7R5mfmmy9sBW91gAGP8bXdFaM_Ln4db_v9KxzUIAwQOZ6nqWDJtI9Yg2XKGsQkGAhLHtVLIrI-0XyM-fAq9AmRlqaQCRm9NRqLjJ2aymVTo8EIiGeaFoiVF1Mk61Bx48RL7Efe8Y1aq3Fhdb3iaKvZYZlKwfWuCxlWs0iDGQkx4YNiIeXs0LX3hLS_Q?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -72.657337,41.571577,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thomas Hooker Brewery</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.7106859,41.8092044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Black Pond Brews</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.883942,41.804121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DuVig Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.7678878,41.3029689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Half Full Brewery</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.5499287,41.0395133,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Steady Habit Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.472438,41.448355,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hanging Hills Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6696226,41.7445095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fairfield Craft Ales</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.1473669,41.1758442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hog River Brewing Co.</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.702233,41.757112,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lasting Brass Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.0810698,41.5870001,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fox Farm Brewery</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.267719,41.483862,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BAD SONS Beer Co.</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.0991277,41.3262988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Front Porch Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.8184181,41.4719162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Redding Beer Co</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.4275032,41.2574913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cliffside Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.8236672,41.4567193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alvarium Beer Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.754817,41.664094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woodbury Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.204593,41.525273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Breakaway Brew Haus</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.4221522,41.771601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>30 Mile Brewing Co.</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.3710498,41.302256,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>City Steam Brewery Cafe</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6728005,41.7678703,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BAR</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.9304171,41.3060796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Two Roads Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.1420901,41.1856816,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>No Worries Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.892873,41.349997,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Veracious Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.2559963,41.3104991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shebeen Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.0018305,41.5745579,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Still Hill Brewery and Tap Room</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6767739,41.6357283,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forest City Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.658131,41.572018,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brewport</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.1916743,41.1707493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Epicure Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.0744699,41.5256039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kinsmen Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.9023672,41.5674927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Counterweight Brewing Co</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.9178509,41.3919776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Connecticut Valley Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.5721434,41.8484404,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Witchdoctor Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.8822961,41.6013785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lock City Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.5191004,41.0771645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barley Head Brewery</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.9718991,41.353503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fat Orange Cat Brew Co.</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.471375,41.5589894,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iron Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.4165894,41.0987521,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken Symmetry Gastro Brewery</name>
+        <description>www.brokensymmetrybrew.com/</description>
+        <styleUrl>#icon-1879-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            -73.41466,41.3703551,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Five Churches Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.7827262,41.6631364,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Armada Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.8743335,41.2889126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Beeracks</name>
+        <description><![CDATA[https://www.facebook.com/thebeeracks/<br>250 Bradley St, East Haven, CT (Same building as Overshores Brewing & Armada Brewing)]]></description>
+        <styleUrl>#icon-1879-1A237E</styleUrl>
+        <Point>
+          <coordinates>
+            -72.8743402,41.288829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Milford Point Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.0198985,41.2373837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2nd Bridge Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.5521391,41.7844887,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tribus Beer Co.</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.093968,41.231339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Labyrinth Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.5266424,41.7671531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little House Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.4507771,41.4025586,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Athletic Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.1546106,41.1657341,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Firefly Hollow Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.9458558,41.677675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kent Falls Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.3866065,41.6893924,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bad Dream Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.4184815,41.5569993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Charter Oak Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.4287484,41.391487,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nod Hill Brewery</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.4441342,41.2734726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Relic Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.868043,41.6663954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Park Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.7189604,41.7410382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Thomas Hooker Brewery at Colt</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6636668,41.7554076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Black Hog Brewing Co</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.1520316,41.4740427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The Beer'd Brewing Company]]></name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.8983419,41.3378919,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Back East Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.705084,41.855074,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OEC Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.121122,41.473002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Willimantic Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.2171477,41.7131531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brass Works Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.0563616,41.5975832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Outer Light Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.0744532,41.360769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cottrell Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.8333993,41.3699057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New England Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.9795895,41.3392264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brewery Legitimus</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.9623241,41.8683345,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Housatonic River Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.4205533,41.577702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Problem Solved Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6038452,41.929985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Norbrook Farm Brewery</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.1387693,41.9904704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Rock Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.9071132,41.32156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Noble Jay Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.245686,41.321041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Great Falls Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.3293303,42.0264175,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niantic Public House and Brewery</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.1932462,41.3238881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broad Brook Brewing LLC</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6634706,41.9593151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stranger Tides Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.3452649,41.5793342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Soundview Brewing Company Tap room</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.277631,41.28441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Reverie Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.2969447,41.4187865,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area Two Experimental Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.1402561,41.1872376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Erector Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.9174957,41.3100804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cold Creek Tavern</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.4605221,41.8937752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Center Street Brewing Co.</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.816433,41.4545194,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Skygazer Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.878696,41.622275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tox Brewing Company</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.1239657,41.3671814,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Brewery at Maple View Farm</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.788123,41.942268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Hop Culture Farms & Brew Co.]]></name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.3866062,41.5683332,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Stack</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.9055945,41.315023,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Red Barn Brewers</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.0772565,41.9245811,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hops on the Hill Farm Brewery</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6146153,41.6605975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taylor Brooke Brewery</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.0071864,41.9459647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stony Creek Brewery</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.9602568,41.4723227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Better Half Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.9464683,41.6723127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Urban Lodge Brewing Co.</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.5201579,41.7709704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luppoleto Brewing Co.</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6282594,41.9277752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stewards of the Land Brewery</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.8008768,41.363062,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HIGH NINE Brewing</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.438066,41.3937333,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elicit Brewing Co</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.5503837,41.7905809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Twelve Percent Beer Project</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.8833648,41.3702215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shunock River Brewery and Village Cafe</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.881012,41.4412991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Powder Hollow Brewery</name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6501044,41.5627796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Dexter's Tunes, Tales, and Ales]]></name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.5019374,41.5747843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The Beer'd Brewing Company, The Silo]]></name>
+        <styleUrl>#icon-1879-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.0463072,41.3416786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
